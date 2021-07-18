@@ -162,9 +162,9 @@ ul li:last-child {
     .showcase-row:hover{
         transform: none;
     }
-    ul > .show {
-        margin-left: 35%;
-    }
+    /*ul > .show {*/
+    /*    margin-left: 35%;*/
+    /*}*/
     ul{
         align-items: center;
     }
