@@ -174,4 +174,8 @@ ul li:last-child {
     #showcase-section > h3{
         margin-top: 10% !important;
     }
+    #down-indicator {
+        padding-top: 36vh;
+        width: 15% !important;
+    }
 }
