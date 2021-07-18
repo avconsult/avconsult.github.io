@@ -134,9 +134,10 @@ ul li:last-child {
 
 #down-indicator {
     padding-top: 32vh;
-    animation: bounce, hide 1s linear 1s 1 forwards;
+    animation: bounce, hide 1s linear 3s 1 forwards;
     /*hide 2s linear 5s 1 forwards;*/
     animation-duration: 1s;
+    animation-delay: 2s;
 }
 
 @keyframes hide {
