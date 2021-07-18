@@ -1,0 +1,116 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+*{font-family: 'Montserrat', sans-serif;}
+
+.motto > h1{
+    font-size: 50px;
+}
+
+h1, h3 {
+    font-weight: 300 !important;
+}
+
+
+nav{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+ul li:last-child {
+    right: 5%;
+    position: absolute;
+    height: 50px;
+}
+
+.nav-item{
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.nav-item > .nav-link{
+    color: black;
+}
+
+.nav-item > .btn-danger{
+    color: white !important;
+}
+
+.nav-item > .btn-danger:hover{
+    color: black !important;
+}
+
+.header{
+    background-size: cover;
+    background-color: #FF8F5E;
+    background-position: center top;
+    min-height: 100vh;
+}
+
+.header-image{
+    background-image: url(assets/media/nick-wessaert-JI01fn0U7Cg-unsplash.jpg) !important;
+    background-color: black;
+}
+.header .motto{
+    color: black;
+    padding-top: 15%;
+    text-align: center;
+    z-index: 3;
+}
+.header .motto h3{
+    margin-bottom: 0;
+}
+
+.showcase-container{
+    text-align: center;
+    margin-top: 3%;
+}
+
+#nav-banner{
+    min-height: 100%;
+}
+
+.navbar-brand > img{
+    width: 40%;
+    margin-left: 15%;
+}
+
+#showcase-section{
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 1%;
+    margin-bottom: 5%;
+}
+
+#showcase-section > .container{
+    width: 95%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.showcase-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /*rgb(255,234,230);*/
+    /*rgba(255, 170, 170, 0.25);*/
+    border-radius: 10px;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: all 1s;
+}
+
+.showcase-row:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.showcase-row > div > h4, .showcase-row > div > img, .showcase-row > div > p{
+    margin-bottom: 10%;
+}
