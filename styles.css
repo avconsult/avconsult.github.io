@@ -159,4 +159,7 @@ ul li:last-child {
     ul > li {
         margin-top: 5%;
     }
+    #showcase-section > h3{
+        margin-top: 10% !important;
+    }
 }
