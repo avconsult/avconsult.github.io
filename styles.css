@@ -152,6 +152,9 @@ ul li:last-child {
         margin-left: 10%;
         width: 30%;
     }
+    .navbar-brand > img{
+        margin-left: -30%;
+    }
     ul li:last-child > a{
         margin-left: 15%;
     }
