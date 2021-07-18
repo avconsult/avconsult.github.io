@@ -10,10 +10,16 @@ html, body{
     font-size: 50px;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 h1, h3 {
     font-weight: 300 !important;
 }
-
 
 nav{
     margin-left: 3%;
@@ -82,7 +88,11 @@ ul li:last-child {
     text-align: center;
     background-color: whitesmoke;
     padding-top: 1%;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+#showcase-section > h3 {
+    font-weight: 500;
 }
 
 #showcase-section > .container{
@@ -113,4 +123,40 @@ ul li:last-child {
 
 .showcase-row > div > h4, .showcase-row > div > img, .showcase-row > div > p{
     margin-bottom: 10%;
+}
+
+.footer {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    ul li:last-child {
+        position: relative;
+        margin-left: 10%;
+        width: 30%;
+    }
+    ul li:last-child > a{
+        margin-left: 15%;
+    }
+    .showcase-row > div {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .showcase-row:hover{
+        transform: none;
+    }
+    ul > .show {
+        margin-left: 35%;
+    }
+    ul{
+        align-items: center;
+    }
+    ul > li {
+        margin-top: 5%;
+    }
 }
