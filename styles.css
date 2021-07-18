@@ -50,10 +50,12 @@ ul li:last-child {
 }
 
 .header{
+    text-align: center;
     background-size: cover;
     background-color: #FF8F5E;
     background-position: center top;
     min-height: 100vh;
+    max-height: 100vh;
 }
 
 .header-image{
@@ -73,10 +75,6 @@ ul li:last-child {
 .showcase-container{
     text-align: center;
     margin-top: 3%;
-}
-
-#nav-banner{
-    min-height: 100%;
 }
 
 .navbar-brand > img{
@@ -132,6 +130,19 @@ ul li:last-child {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#down-indicator {
+    padding-top: 32vh;
+    animation: bounce, hide 1s linear 1s 1 forwards;
+    /*hide 2s linear 5s 1 forwards;*/
+    animation-duration: 1s;
+}
+
+@keyframes hide {
+    to {
+        opacity: 0;
+    }
 }
 
 @media (max-width: 768px) {
