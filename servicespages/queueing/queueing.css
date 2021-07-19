@@ -19,7 +19,7 @@
     color: black !important;
 }
 
-.header-overlay{
+.header-overlay {
     height: 100vh;
     width: 100%;
     background: repeating-linear-gradient(360deg, black, transparent 1200px);
@@ -37,30 +37,8 @@
 
 @media (max-width: 992px) {
     .header .motto{
-        padding-top: 4%;
-    }
-    .header .motto > h2{
-        font-size: 1.5rem;
-    }
-    .header .motto > h5{
-        font-size: 1.15rem;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 
-@media (max-width: 768px) {
-    .header, .header .motto{
-        text-align: center;
-        float: none;
-    }
-    .motto{
-        padding: 8% 5%;
-        margin-top: 10%;
-        max-width: none;
-        max-height: none;
-        margin-left: auto;
-        background: repeating-linear-gradient(360deg, black, transparent 900px);
-    }
-    .header .motto h2, .header .motto h5{
-        color: white;
-    }
-}
