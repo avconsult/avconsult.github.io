@@ -59,9 +59,10 @@ ul li:last-child {
 }
 
 .header-image{
-    background-image: url(assets/media/nick-wessaert-JI01fn0U7Cg-unsplash.jpg) !important;
+    background-image: url(media/nick-wessaert-JI01fn0U7Cg-unsplash.jpg) !important;
     background-color: black;
 }
+
 .header .motto{
     color: black;
     padding-top: 15%;
@@ -72,55 +73,9 @@ ul li:last-child {
     margin-bottom: 0;
 }
 
-.showcase-container{
-    text-align: center;
-    margin-top: 3%;
-}
-
 .navbar-brand > img{
     width: 40%;
     margin-left: 15%;
-}
-
-#showcase-section{
-    text-align: center;
-    background-color: whitesmoke;
-    padding-top: 1%;
-    padding-bottom: 5%;
-}
-
-#showcase-section > h3 {
-    font-weight: 500;
-}
-
-#showcase-section > .container{
-    width: 95%;
-    margin-top: 3%;
-    margin-bottom: 5%;
-}
-
-.showcase-row {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    /*rgb(255,234,230);*/
-    /*rgba(255, 170, 170, 0.25);*/
-    border-radius: 10px;
-    padding: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    transition: all 1s;
-}
-
-.showcase-row:hover{
-    transform: scale(1.02);
-    cursor: pointer;
-}
-
-.showcase-row > div > h4, .showcase-row > div > img, .showcase-row > div > p{
-    margin-bottom: 10%;
 }
 
 .footer {
@@ -132,19 +87,6 @@ ul li:last-child {
     align-items: center;
 }
 
-#down-indicator {
-    padding-top: 32vh;
-    animation: bounce, hide 1s linear 3s 1 forwards;
-    /*hide 2s linear 5s 1 forwards;*/
-    animation-duration: 1s;
-    animation-delay: 2s;
-}
-
-@keyframes hide {
-    to {
-        opacity: 0;
-    }
-}
 
 @media (max-width: 768px) {
     ul li:last-child {
@@ -158,27 +100,10 @@ ul li:last-child {
     ul li:last-child > a{
         margin-left: 15%;
     }
-    .showcase-row > div {
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    .showcase-row:hover{
-        transform: none;
-    }
-    /*ul > .show {*/
-    /*    margin-left: 35%;*/
-    /*}*/
     ul{
         align-items: center;
     }
     ul > li {
         margin-top: 5%;
-    }
-    #showcase-section > h3{
-        margin-top: 10% !important;
-    }
-    #down-indicator {
-        padding-top: 36vh;
-        width: 15% !important;
     }
 }
