@@ -6,9 +6,34 @@
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23f00'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
+.carousel-control-prev > span {
+    color: black !important;
+}
+
+.carousel-control-next > span {
+    color: black !important;
+}
+
 .carousel {
-    width:640px;
-    height:360px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width:80vw;
+    height:80vh;
+    border: 5px solid black;
+}
+
+.carousel-inner, .carousel-item, .vertical-align{
+    height: 100%;
+}
+
+.vertical-align{
+    display: flex;
+}
+
+.carousel-inner > .carousel-item > .vertical-align > img,
+.carousel-inner > .carousel-item > .vertical-align > a > img {
+    width: 50%;
+    margin: auto;
 }
 
 *{
@@ -33,6 +58,21 @@
 .header .motto{
     margin-left: 20%;
     margin-right: 20%;
+}
+
+#down-indicator-queueing{
+    position: absolute;
+    bottom: 5%;
+}
+
+img#down-indicator-queueing:hover{
+    cursor: pointer;
+}
+
+#slideshow-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media (max-width: 992px) {
