@@ -33,18 +33,23 @@
     padding: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
-        /*margin-left: 5%;*/
-        /*margin-right: 5%;*/
+}
+
+.showcase-row > div > a{
+    text-decoration: none;
+}
+
+.showcase-row > div > a > h4, .showcase-row > div > a > img, .showcase-row > div > a > p{
+    margin-bottom: 10%;
+    color: black;
+}
+
+.showcase-row > div {
     transition: all 1s;
 }
-
-.showcase-row:hover{
-    transform: scale(1.02);
+.showcase-row > div:hover{
     cursor: pointer;
-}
-
-.showcase-row > div > h4, .showcase-row > div > img, .showcase-row > div > p{
-    margin-bottom: 10%;
+    transform: scale(1.05);
 }
 
 .showcase-container{
@@ -63,11 +68,12 @@
         margin-top: 5%;
         margin-bottom: 5%;
     }
-    .showcase-row:hover{
+    .showcase-row > div:hover{
         transform: none;
     }
     #showcase-section > h3{
         margin-top: 10% !important;
+        margin-bottom: 15%;
     }
     #down-indicator {
         padding-top: 36vh;
