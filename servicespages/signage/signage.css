@@ -11,28 +11,34 @@
     height:360px;
 }
 
-*{
-    color: white !important;
-}
-
-.dropdown-menu > a {
-    color: black !important;
-}
-
-.header-overlay{
-    height: 100vh;
-    width: 100%;
-    background: repeating-linear-gradient(360deg, black, transparent 1200px);
-}
-
-.header-image{
-    background-image: url(../../assets/media/queuelongwhite.jpg) !important;
-    background-color: black;
+.header, .header .motto{
+    text-align: left;
 }
 
 .header .motto{
-    margin-left: 20%;
-    margin-right: 20%;
+    padding-top: 10%;
+}
+
+.header-image{
+    background-image: url(../../assets/media/etienne-boulanger-mDOao83l1iU-unsplash.jpg) !important;
+    background-color: black;
+}
+
+.motto{
+    float: left;
+    margin-left: 5%;
+    max-width:50vw;
+    max-height: 50vh;
+}
+
+.header .motto > h2{
+    font-size: 4vh;
+    font-weight: 400 !important;
+    margin-bottom: 5%;
+}
+
+.header .motto > h5{
+    font-size: 2.3vh;
 }
 
 @media (max-width: 992px) {
