@@ -16,7 +16,7 @@
 }
 
 .header .motto{
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 .header-image{
@@ -37,6 +37,9 @@
 }
 
 @media (max-width: 992px) {
+    .header .motto{
+        padding-top: 4%;
+    }
     .header .motto > h2{
         font-size: 1.5rem;
     }
