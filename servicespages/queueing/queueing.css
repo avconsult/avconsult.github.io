@@ -32,8 +32,13 @@
 }
 
 .header .motto > h2{
+    font-size: 4vh;
     font-weight: 400 !important;
     margin-bottom: 5%;
+}
+
+.header .motto > h5{
+    font-size: 2.3vh;
 }
 
 @media (max-width: 992px) {
