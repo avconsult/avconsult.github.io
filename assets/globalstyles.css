@@ -22,7 +22,8 @@ h1, h3 {
 }
 
 #down-indicator {
-    margin-top: 32vh;
+    position: absolute;
+    bottom: 5%;
     /*animation: bounce, hide 1s linear 2.3s 1 forwards;*/
     /*!*hide 2s linear 5s 1 forwards;*!*/
     /*animation-duration: 1s;*/
