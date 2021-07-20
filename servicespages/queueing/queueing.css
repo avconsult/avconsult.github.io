@@ -58,7 +58,7 @@
 }
 
 img#down-indicator{
-    margin-top: 26vh;
+    margin-top: 22vh;
 }
 
 .vertical-align{
@@ -119,8 +119,17 @@ img#down-indicator-queueing:hover{
 
 @media (max-width: 992px) {
     .header .motto{
+        margin-top: 10%;
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .sr-only, .sr-only{
+        display: none;
+    }
+    .row{
+        height: 100vh;
+        padding-left: 3%;
+        padding-right: 3%;
     }
 }
 
