@@ -123,6 +123,9 @@ img#down-indicator-queueing:hover{
         margin-left: 5%;
         margin-right: 5%;
     }
+    .row:first-child > h1{
+        margin-top: 12% !important;
+    }
     .sr-only, .sr-only{
         display: none;
     }
