@@ -21,6 +21,18 @@ h1, h3 {
     font-weight: 300 !important;
 }
 
+#down-indicator {
+    margin-top: 32vh;
+    /*animation: bounce, hide 1s linear 2.3s 1 forwards;*/
+    /*!*hide 2s linear 5s 1 forwards;*!*/
+    /*animation-duration: 1s;*/
+    /*animation-delay: 1.3s;*/
+}
+
+#down-indicator:hover {
+    cursor: pointer;
+}
+
 nav{
     margin-left: 3%;
     margin-right: 3%;
@@ -105,5 +117,9 @@ ul li:last-child {
     }
     ul > li {
         margin-top: 5%;
+    }
+    #down-indicator {
+        margin-top:  36vh;
+        width: 15% !important;
     }
 }

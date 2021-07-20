@@ -1,11 +1,3 @@
-#down-indicator {
-    padding-top: 32vh;
-    animation: bounce, hide 1s linear 2.3s 1 forwards;
-    /*hide 2s linear 5s 1 forwards;*/
-    animation-duration: 1s;
-    animation-delay: 1.3s;
-}
-
 #showcase-section{
     text-align: center;
     background-color: whitesmoke;
@@ -76,7 +68,7 @@
         margin-bottom: 15%;
     }
     #down-indicator {
-        padding-top: 36vh;
+        margin-top:  36vh;
         width: 15% !important;
     }
 }

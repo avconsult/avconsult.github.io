@@ -1,29 +1,64 @@
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23f00'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
-}
+/*.carousel-control-prev-icon {*/
+/*    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23f00'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");*/
+/*}*/
 
-.carousel-control-next-icon{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23f00'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-}
+/*.carousel-control-next-icon{*/
+/*    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23f00'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");*/
+/*}*/
 
-.carousel-control-prev > span {
-    color: black !important;
-}
+/*.carousel-control-prev > span {*/
+/*    color: black !important;*/
+/*}*/
 
-.carousel-control-next > span {
-    color: black !important;
-}
+/*.carousel-control-next > span {*/
+/*    color: black !important;*/
+/*}*/
 
 .carousel {
     margin-top: 5%;
     margin-bottom: 5%;
-    width:80vw;
-    height:80vh;
-    border: 5px solid black;
+    height: 50vh;
+    /*border: 1px solid black;*/
+    /*border-radius: 20px;*/
+}
+
+.row {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.row:first-child > *{
+    color: black !important;
+}
+
+.row > p{
+    margin-top: 3%;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.row + .row{
+    margin-top: 5%;
+    background: #FF0D00;
+}
+
+.row + .row > h1{
+    margin-top: 10%;
+}
+
+.row + .row > *{
+    color: white !important;
 }
 
 .carousel-inner, .carousel-item, .vertical-align{
     height: 100%;
+    /*background: whitesmoke;*/
+    /*border-radius: 20px;*/
+}
+
+img#down-indicator{
+    margin-top: 26vh;
 }
 
 .vertical-align{
@@ -70,9 +105,16 @@ img#down-indicator-queueing:hover{
 }
 
 #slideshow-section{
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    color: black !important;
+    padding-top: 5%;
+    background: white;
+            /*url("../../assets/media/alessandra-caretto-CjQqQBSL9uo-unsplash.jpg");*/
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
 }
 
 @media (max-width: 992px) {
