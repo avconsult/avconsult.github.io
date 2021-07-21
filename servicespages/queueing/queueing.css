@@ -124,6 +124,9 @@
         padding-left: 3%;
         padding-right: 3%;
     }
+    .row:first-child > h1{
+        font-weight: 500 !important;
+    }
     .row + .row{
         padding: 0;
     }
