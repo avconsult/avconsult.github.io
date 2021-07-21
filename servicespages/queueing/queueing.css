@@ -131,7 +131,7 @@
         padding: 0;
     }
     .carousel{
-        height: 30vh;
+        min-height: 30vh;
         margin-bottom: 5vh;
     }
     .row + .row > h1{
@@ -140,8 +140,17 @@
     }
     .carousel-inner > .carousel-item > .vertical-align > img,
     .carousel-inner > .carousel-item > .vertical-align > a > img {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner > .carousel-item > .vertical-align > img,
+    .carousel-inner > .carousel-item > .vertical-align > a > img {
         width: 80%;
         margin: auto;
     }
 }
+
 
