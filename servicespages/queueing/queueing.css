@@ -114,13 +114,13 @@
         padding-top: 12% !important;
     }
     .row:first-child > p{
-        font-size: 1.5em;
+        font-size: 1.25em;
     }
     .sr-only, .sr-only{
         display: none;
     }
     .row:first-child{
-        height: 100vh;
+        height: 70vh;
         padding-left: 3%;
         padding-right: 3%;
     }
@@ -131,10 +131,12 @@
         padding: 0;
     }
     .carousel{
-        height: 60vh;
+        height: 30vh;
+        margin-bottom: 5vh;
     }
     .row + .row > h1{
-        padding-top: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
     .carousel-inner > .carousel-item > .vertical-align > img,
     .carousel-inner > .carousel-item > .vertical-align > a > img {
