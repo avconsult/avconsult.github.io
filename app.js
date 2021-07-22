@@ -42,10 +42,16 @@ function scrollToId(eltId){
 
 function hideChevronOnNavExpand(){
     if(window.screen.width < 768) { // only on mobile
-        console.log(getStyle('down-indicator', 'visibility'));
         if (getStyle('down-indicator', 'visibility') == 'visible')
             downchevron.style.visibility = 'hidden';
         else
+            downchevron.style.visibility = 'visible';
+    }
+}
+
+function showChevronHome(){
+    if(window.screen.width < 768) { // only on mobile
+        if (getStyle('down-indicator', 'visibility') == 'hidden')
             downchevron.style.visibility = 'visible';
     }
 }
