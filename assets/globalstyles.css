@@ -111,9 +111,10 @@ ul li:last-child {
 .lightbox__inner{
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 80vw;
     min-height: 100px;
     background: white;
+    padding: 2%;
     box-shadow:  0 0 25px rgba(0,0,0,0.3);
 }
 
@@ -128,6 +129,7 @@ ul li:last-child {
     font-size: 40px;
     cursor: pointer;
     color: rgba(0,0,0,0.5) !important;
+    z-index: 3;
 }
 
 .lightbox__close:hover{

@@ -61,8 +61,8 @@
     display: flex;
 }
 
-.carousel-inner > .carousel-item > .vertical-align > img,
-.carousel-inner > .carousel-item > .vertical-align > a > img {
+.carousel-item > .vertical-align > img,
+.carousel-item > .vertical-align > a > img {
     width: 50%;
     margin: auto;
 }

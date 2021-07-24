@@ -35,4 +35,15 @@ export default class Lightbox{
 
     }
 
+    static show(htmlOrElement){
+        const content = document.querySelector("#lightbox .lightbox__content");
+        document.querySelector('#lightbox').style.display = null;
+        if(typeof htmlOrElement === 'string')
+            content.innerHTML = htmlOrElement;
+        else{
+            content.innerHTML = '';
+            content.appendChild(htmlOrElement);
+        }
+    }
+
 }
