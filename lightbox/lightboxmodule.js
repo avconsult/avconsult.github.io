@@ -7,7 +7,7 @@ for(let i = 0; i < carouselImages.length; i++){
     carouselImages[i].addEventListener('click', showImage, false);
 }
 
-export function showImage(){
+function showImage(){
     Lightbox.show(this.cloneNode(true));
 }
 

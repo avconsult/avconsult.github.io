@@ -168,4 +168,15 @@ ul li:last-child {
         /*margin-left: -15%;*/
         width: 15% !important;
     }
+    .lightbox__inner{
+        display: flex;
+        max-width: 95vw;
+        min-height: 40vh;
+    }
+    .lightbox__content{
+        width: 100%;
+    }
+    .lightbox__content > .carousel-item > .vertical-align > img{
+        width: 100%;
+    }
 }
