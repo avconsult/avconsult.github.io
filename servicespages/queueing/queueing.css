@@ -151,6 +151,9 @@
         height: auto;
         min-height: 30vh;
     }
+    .row:first-child > p{
+        font-size: 1.15em;
+    }
 }
 
 
