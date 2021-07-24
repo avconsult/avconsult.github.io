@@ -129,7 +129,7 @@ ul li:last-child {
     font-size: 40px;
     cursor: pointer;
     color: rgba(0,0,0,0.5) !important;
-    z-index: 3;
+    z-index: 1000;
 }
 
 .lightbox__close:hover{
