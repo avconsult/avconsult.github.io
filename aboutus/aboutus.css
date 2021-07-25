@@ -45,15 +45,10 @@ nav{
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto 100%;
-    background-color: #e82323;
+    background-color: #e92323;
 }
 
 @media (max-width: 1150px){
-    /*.bottom-half{*/
-    /*    background-size: 100%;*/
-    /*    display: flex;*/
-    /*    bottom: 0;*/
-    /*}*/
     .bottom-half > img{
         width: 100%;
     }
