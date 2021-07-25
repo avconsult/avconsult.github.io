@@ -44,15 +44,16 @@ nav{
     background-image: url("../assets/media/Page-1-Image-1.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-color: white;
+    background-size: auto 100%;
+    background-color: #e82323;
 }
 
 @media (max-width: 1150px){
-    .bottom-half{
-        background-size: 100%;
-        display: flex;
-        bottom: 0;
-    }
+    /*.bottom-half{*/
+    /*    background-size: 100%;*/
+    /*    display: flex;*/
+    /*    bottom: 0;*/
+    /*}*/
     .bottom-half > img{
         width: 100%;
     }
