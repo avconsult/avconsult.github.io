@@ -36,7 +36,6 @@ function scrollToId(eltId){
     setTimeout(function () {
         elmntToView.scrollIntoView()
     },2);
-    //elmntToView.scrollTo(0, elmntToView.offsetTop);
 }
 
 
