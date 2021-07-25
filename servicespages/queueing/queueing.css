@@ -63,7 +63,7 @@
 .header-overlay {
     height: 100vh;
     width: 100%;
-    background: repeating-linear-gradient(360deg, black, transparent 1200px);
+    background: repeating-linear-gradient(360deg, black, transparent 100vh);
 }
 
 .header-image{
