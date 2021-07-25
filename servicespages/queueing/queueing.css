@@ -99,6 +99,7 @@
     .header .motto{
         margin-left: 5%;
         margin-right: 5%;
+        top:20% !important;
     }
     .row:first-child > h1{
         padding-top: 12% !important;
