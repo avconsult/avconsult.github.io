@@ -53,8 +53,6 @@ nav{
     }
     .top-half{
         max-height: 70vh;
-    }
-    .top-half > h1{
-        margin-top: 4%;
+        padding-top: 10%;
     }
 }
