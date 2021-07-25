@@ -145,6 +145,10 @@ ul li:last-child {
     align-items: center;
 }
 
+.footer a{
+    color: rgba(255,33,33,0.9);
+}
+
 
 @media (max-width: 768px) {
     ul li:last-child {
