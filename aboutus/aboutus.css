@@ -1,3 +1,6 @@
+body{
+    max-height: 100vh;
+}
 
 .header{
     background-color: whitesmoke;
@@ -49,7 +52,7 @@ nav{
         overflow-y: hidden;
     }
     .top-half{
-        max-height: 80vh;
+        max-height: 70vh;
     }
     .top-half > h1{
         margin-top: 4%;
