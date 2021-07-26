@@ -95,11 +95,19 @@
     background-size: cover;
 }
 
+.header .motto{
+    top: -webkit-calc(100% + 25vh);
+    top: -moz-calc(100% + 25vh);
+    top: calc(100% + 25vh);
+}
+
 @media (max-width: 992px) {
     .header .motto{
         margin-left: 5%;
         margin-right: 5%;
-        top:20% !important;
+        top: -webkit-calc(100% + 5vh);
+        top: -moz-calc(100% + 5vh);
+        top: calc(100% + 5vh);
     }
     .row:first-child > h1{
         padding-top: 12% !important;
