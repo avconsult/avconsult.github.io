@@ -1,12 +1,4 @@
 
-.carousel {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    height: 70vh;
-    /*border: 1px solid black;*/
-    /*border-radius: 20px;*/
-}
-
 .row {
     text-align: center;
     padding-left: 15%;
@@ -26,6 +18,10 @@
 .row + .row{
     margin-top: 5%;
     background: #FF0D00;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column
 }
 
 .row + .row > h1{
@@ -34,22 +30,6 @@
 
 .row + .row > *{
     color: white !important;
-}
-
-.carousel-inner, .carousel-item, .vertical-align{
-    height: 100%;
-    /*background: whitesmoke;*/
-    /*border-radius: 20px;*/
-}
-
-.vertical-align{
-    display: flex;
-}
-
-.carousel-item > .vertical-align > img,
-.carousel-item > .vertical-align > a > img {
-    width: 50%;
-    margin: auto;
 }
 
 *{
@@ -71,27 +51,9 @@
     background-color: black;
 }
 
-.carousel{
-    height: auto;
-    min-height: 50vh;
-    margin-bottom: 5vh;
-}
-
 .header .motto{
     margin-left: 20%;
     margin-right: 20%;
-}
-
-#slideshow-section{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    color: black !important;
-    padding-top: 5%;
-    background: white;
-    background-position: center;
-    background-attachment: scroll;
-    background-size: cover;
 }
 
 .header .motto{
@@ -114,9 +76,6 @@
     .row:first-child > p{
         font-size: 1.25em;
     }
-    .sr-only, .sr-only{
-        display: none;
-    }
     .row:first-child{
         height: 70vh;
         padding-left: 3%;
@@ -128,11 +87,6 @@
     .row + .row{
         padding: 0;
     }
-    .carousel{
-        height: auto;
-        min-height: 50vh;
-        margin-bottom: 5vh;
-    }
     #tallQImage{
         width: 70% !important;
     }
@@ -143,17 +97,8 @@
 }
 
 @media (max-width: 768px) {
-    .carousel-inner > .carousel-item > .vertical-align > img,
-    .carousel-inner > .carousel-item > .vertical-align > a > img {
-        width: 80%;
-        margin: auto;
-    }
     #tallQImage{
         width: 80% !important;
-    }
-    .carousel{
-        height: auto;
-        min-height: 30vh;
     }
     .row:first-child > p{
         font-size: 1.15em;

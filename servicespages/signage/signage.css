@@ -1,10 +1,3 @@
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23f00'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
-}
-
-.carousel-control-next-icon{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23f00'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-}
 
 .carousel {
     width:640px;
@@ -41,6 +34,64 @@
     font-size: 2.3vh;
 }
 
+#signage-section{
+    text-align: center;
+    padding-top: 15vh;
+    background-color: whitesmoke;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 15vh;
+            /*#efefef;*/
+}
+
+#signage-section > h1 {
+    padding-bottom: 10vh;
+}
+
+#signage-section > div > .row  *{
+    color: white;
+}
+
+#signage-section > .container-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+.row > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 31vw;
+    border-radius: 3px;
+}
+
+#firstCol{
+    margin-right: 1vw;
+}
+
+#thirdCol{
+    margin-left: 1vw;
+}
+
+.row > div > img{
+    margin-bottom: 20px;
+}
+.row > div > h4{
+    margin-bottom: 25px;
+}
+
+#slideshow-section{
+    background: #FF0D00; ;
+}
+
+#slideshow-section > * {
+    color: white;
+}
+
 @media (max-width: 992px) {
     .header .motto{
         padding-top: 4%;
@@ -50,6 +101,9 @@
     }
     .header .motto > h5{
         font-size: 1.15rem;
+    }
+    #productCarrousel{
+        width: 90vw;
     }
 }
 
@@ -68,5 +122,18 @@
     }
     .header .motto h2, .header .motto h5{
         color: white;
+    }
+    #signage-section{
+        height: auto;
+    }
+    .row > div{
+        width: 100vw;
+        margin-bottom: 5vh;
+    }
+    #thirdCol{
+        margin-bottom: 0;
+    }
+    #productCarrousel{
+        width: 95vw;
     }
 }

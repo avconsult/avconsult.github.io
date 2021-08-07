@@ -75,7 +75,7 @@ ul li:last-child {
 }
 
 .header-image{
-    background-image: url(media/nick-wessaert-JI01fn0U7Cg-unsplash.jpg) !important;
+    background-image: url(../media/nick-wessaert-JI01fn0U7Cg-unsplash.jpg) !important;
     background-color: black;
 }
 
@@ -111,7 +111,7 @@ ul li:last-child {
 .lightbox__inner{
     position: relative;
     width: 100%;
-    max-width: 80vw;
+    max-width: 95vw;
     min-height: 100px;
     background: white;
     padding: 2%;
