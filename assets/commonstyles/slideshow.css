@@ -35,7 +35,7 @@
     background-size: cover;
 }
 
-.carousel-inner, .carousel-item, .vertical-align{
+.carousel-inner, .carousel-item{
     height: 100%;
     /*background: whitesmoke;*/
     /*border-radius: 20px;*/
@@ -43,9 +43,13 @@
 
 .carousel-inner{
     min-height: 50vh;
-    height: auto;
     display: flex;
     align-items: center;
+    height: auto;
+}
+
+.carousel-item{
+
 }
 
 .vertical-align{
