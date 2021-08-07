@@ -62,4 +62,7 @@ nav{
         max-height: 70vh;
         padding-top: 10%;
     }
+    .top-half > h4{
+        font-size: 2.1vh !important;
+    }
 }
