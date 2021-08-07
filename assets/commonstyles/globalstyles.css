@@ -123,6 +123,10 @@ ul li:last-child {
     align-items: center;
 }
 
+.lightbox__content > .carousel-item > img, .lightbox__content > .carousel-item > a > img {
+    width: 90%;
+}
+
 .lightbox__close{
     background: none;
     border: none;
