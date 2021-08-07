@@ -133,6 +133,10 @@
     #thirdCol{
         margin-bottom: 0;
     }
+    #firstCol, #secondCol, #thirdCol{
+        margin-left: 1.5vw;
+        margin-right: 1.5vw;
+    }
     #productCarrousel{
         width: 95vw;
     }
