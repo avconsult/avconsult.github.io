@@ -126,6 +126,7 @@
     }
     #signage-section{
         height: auto;
+        padding-top: 4vh;
     }
     .row > div{
         width: 100vw;
