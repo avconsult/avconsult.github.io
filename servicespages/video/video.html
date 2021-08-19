@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../../assets/commonstyles/globalstyles.css">
+    <link rel="stylesheet" href="../../assets/commonstyles/slideshow.css">
+    <link rel="stylesheet" href="video.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <!--  Poppins font for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap" rel="stylesheet">
+
+    <title>Video Conferencing</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-transparent">
+
+        <a class="navbar-brand" href="../../index.html">
+            <img src="../../assets/icons/avlogotransp.png" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList" aria-controls="navbarList"
+                aria-expanded="false"
+                onclick="showChevronHome()"
+                aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <img src="../../assets/icons/menu.png" style="width: 120%; margin-top: 10%" alt="">
+                    </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarList">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../../index.html"> Home </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../../aboutus/aboutus.html"> About </a>
+                </li>
+                <li class="nav-item dropdown">
+
+                    <a onclick="hideChevronOnNavExpand()" class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
+                       role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Services
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href=""> Video Conferencing </a>
+                        <a class="dropdown-item" href="../queueing/queueing.html"> Queueing Systems </a>
+                        <a class="dropdown-item" href="../signage/signage.html"> Digital Signage </a>
+                        <a class="dropdown-item" href="#"> IPTV </a>
+                    </div>
+
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link btn btn-danger" target="_blank" href="../../assets/catalogues/AV%20Consult%20-%20Media%20solutions.pdf"> Catalog </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="mybg-dark text-center">
+        <div class="container container--narrow">
+            <p> Upgrade your communication. </p>
+            <h1> VTEL Video Conferencing System </h1>
+        </div>
+    </header>
+
+    <section class="mybg-light">
+        <div class="container">
+            <h2 class="text-center" style="color: red"> Quality Video </h2>
+
+            <div class="split">
+                <div>
+                    <p>
+                        The Ipanel  experience delivers a seamless communication experience that
+                        is easy to use, convenient, and ready in real time to help you focus on the task at hand. It will streamline your
+                        applications into unique personal workflows, avoiding the frustration of barriers between technologies.
+
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        VTEL Ipanels seemlessly work with third-party video software such as Zoom, Google Meets, Or Webex. No
+                        software migration needed; the VTEL Ipanel will boost your team's productivity and enhance your conferencing
+                        experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mybg-primary">
+        <div class="container">
+            <div class="split split--imgright">
+                <div>
+                    <h2> Flagship Panels </h2>
+                    <p> Single and dual displays ranging from 32 to 82 inches are available, along with standalone systems for your
+                        own displays, with optional components like
+                        a tabletop omni-directional microphone, and a wireless remote keyboard with an integrated trackpad.</p>
+                </div>
+                <div>
+                    <img style="width: 60%;" src="../../assets/products/video/VTEL%20city-of-henderson-ipanel_orig.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="split split--imgleft">
+                <div>
+                    <img style="width: 70%" src="../../assets/products/video/VTEL%20camera.png" alt="">
+                </div>
+                <div>
+                    <h2> VTEL HD5000PTZ Camera </h2>
+                    <p> Zoom-compatible with support for up to 10 presets, 1080p recording, and smart panning and tilting,
+                    with 10x optical zoom, all in order to satisfy your biggest of conferencing needs. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slideshow section -->
+    <section id="slideshow-section">
+
+        <h1> More Pictures </h1>
+
+        <div id="productCarrousel" class="carousel slide" data-interval="4000" data-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img class="d-block" src="../../assets/products/video/VTEL%201.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item active">
+                    <img class="d-block" src="../../assets/products/video/VTEL%20popp-hutcheson-ipanel_orig.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block" src="../../assets/products/video/vtel-i7-ipanel-with-mobile-stand-1_orig.jpg" alt="Third slide">
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#productCarrousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#productCarrousel" role="button" data-slide="next">
+                <span class="sr-only">Next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer container">
+        <a href="" style="margin-bottom: 2%"> <h6 style="color: black !important;"> Contact Us</h6> </a>
+        <!--    <p> Customized Background purchased from Adobe Stock </p>-->
+        <!--    <h6> Developed and designed by Mohammad El Zein </h6>-->
+        <!--    &lt;!&ndash; Add icon credits here &ndash;&gt;-->
+        <!--    <div>Icons made by <a href="https://www.flaticon.com/authors/dmitri13" title="dmitri13">dmitri13</a> from <a-->
+        <!--            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+    </section>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- JS Files -->
+    <script src="../../app.js"> </script>
+    <script src="../../lightbox/lightboxmodule.js" type="module"> </script>
+
+</body>
+</html>

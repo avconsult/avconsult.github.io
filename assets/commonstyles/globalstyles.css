@@ -2,9 +2,21 @@ html, body{
     height: 100%;
     width: 100%;
     color: black;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *{font-family: 'Montserrat', sans-serif;}
+
+img{
+    max-width: 100%;
+}
 
 .motto > h1{
     font-size: 50px;
@@ -143,7 +155,6 @@ ul li:last-child {
 
 .footer {
     margin-top: 2%;
-    margin-bottom: 5%;
     text-align: center;
     display: flex;
     flex-direction: column;
