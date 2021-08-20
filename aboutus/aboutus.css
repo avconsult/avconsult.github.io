@@ -44,9 +44,9 @@ nav{
     height: auto;
     max-height: 50vh;
     /*background-image: url("../assets/media/Page-1-Image-1.jpg");*/
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto 100%;
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*background-size: auto 100%;*/
     background-color: #e92323;
 }
 
@@ -60,16 +60,16 @@ nav{
 /*    }*/
 /*}*/
 
-@media (max-width: 768px) {
-    /*.header{*/
-    /*    overflow-y: hidden;*/
-    /*}*/
+@media (max-width: 768px) and (orientation: portrait){
+    .header{
+        overflow-y: hidden;
+    }
     .top-half{
         padding-top: 10%;
     }
-    /*.top-half > h4{*/
-    /*    font-size: 2.1vh !important;*/
-    /*}*/
+    .top-half > h4{
+        font-size: 2.25vh !important;
+    }
 }
 
 /* Tablets and phones in landscape */

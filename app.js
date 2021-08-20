@@ -5,7 +5,6 @@ function getStyle(id, name) {
 }
 
 const downchevron = document.getElementById('down-indicator');
-const navbarList = document.getElementById('navbarList');
 
 function scrollToId(eltId){
     const elmntToView = document.getElementById(eltId);
@@ -18,10 +17,9 @@ function scrollToId(eltId){
 
 function hideChevronOnNavExpand(){
     if(window.screen.width < 768) { // only on mobile
-        if (getStyle('down-indicator', 'visibility') == 'visible' &
-        navbarList.classList.contains('show'))
+        if (getStyle('down-indicator', 'visibility') == 'visible')
             downchevron.style.visibility = 'hidden';
-        else if(!navbarList.classList.contains('show'))
+        else
             downchevron.style.visibility = 'visible';
     }
 }
