@@ -54,11 +54,11 @@ nav{
     max-height: 50vh;
 }
 
-@media (max-width: 1150px){
-    .bottom-half > img{
-        width: 100%;
-    }
-}
+/*@media (max-width: 1150px){*/
+/*    .bottom-half > img{*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
 
 @media (max-width: 768px) {
     /*.header{*/
