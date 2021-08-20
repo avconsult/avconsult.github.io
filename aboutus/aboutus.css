@@ -5,7 +5,7 @@ html, body {
 }
 
 body{
-    min-height: 100vh;
+    /*min-height: 100vh;*/
 }
 
 .header{
@@ -31,7 +31,7 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 40vh;
+    /*min-height: 40vh;*/
     /*max-height: 50vh;*/
     background-color: whitesmoke;
 }
@@ -62,9 +62,9 @@ nav{
     .top-half{
         padding-top: 10%;
     }
-    .top-half > h4{
-        font-size: 2.1vh !important;
-    }
+    /*.top-half > h4{*/
+    /*    font-size: 2.1vh !important;*/
+    /*}*/
 }
 
 /* Tablets and phones in landscape */

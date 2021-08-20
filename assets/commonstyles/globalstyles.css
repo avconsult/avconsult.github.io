@@ -183,6 +183,12 @@ ul li:last-child {
     .navbar-brand > img{
         margin-left: -30%;
     }
+    ul li:last-child {
+        text-align: center;
+        position: relative;
+        width: 30%;
+        margin-left: 10%;
+    }
     ul li:last-child > a{
         margin-left: 15%;
     }
