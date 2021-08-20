@@ -83,7 +83,7 @@ ul li:last-child {
     background-color: #FF8F5E;
     background-position: center top;
     min-height: 100vh;
-    max-height: 100vh;
+    /*max-height: 100vh;*/
 }
 
 .header-image{
@@ -200,3 +200,14 @@ ul li:last-child {
         width: 100%;
     }
 }
+
+@media (max-width: 768px) and (orientation: landscape) {
+    #down-indicator{
+        position: relative;
+        margin-top: -2%;
+    }
+    .header .motto{
+        margin-top: -5%;
+    }
+}
+
