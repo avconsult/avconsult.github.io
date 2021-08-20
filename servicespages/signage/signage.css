@@ -143,3 +143,12 @@
         width: 95vw;
     }
 }
+
+@media (max-width: 992px) and (orientation: landscape){
+    .header{
+        overflow: hidden;
+    }
+    .motto{
+        padding-top: 10%;
+    }
+}
