@@ -41,6 +41,11 @@
     /*border-radius: 20px;*/
 }
 
+.carousel-item.active{
+    display: flex;
+    align-items: center;
+}
+
 .carousel-inner{
     min-height: 50vh;
     display: flex;
