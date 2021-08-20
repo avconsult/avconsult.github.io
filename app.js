@@ -21,7 +21,7 @@ function hideChevronOnNavExpand(){
         if (getStyle('down-indicator', 'visibility') == 'visible' &
         navbarList.classList.contains('show'))
             downchevron.style.visibility = 'hidden';
-        else
+        else if(!navbarList.classList.contains('show'))
             downchevron.style.visibility = 'visible';
     }
 }
