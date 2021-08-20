@@ -167,6 +167,7 @@ ul li:last-child {
 
 @media (max-width: 992px) {
     ul li:last-child {
+        text-align: center;
         position: relative;
         margin-left: 10%;
         width: 30%;
