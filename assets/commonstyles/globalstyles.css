@@ -203,9 +203,7 @@ ul li:last-child {
 
 @media (max-width: 992px) and (orientation: landscape) {
     #down-indicator{
-        position: relative;
-        margin-top: 5%;
-        width: 8% !important;
+        display: none;
     }
     .header .motto{
         margin-top: -5%;
