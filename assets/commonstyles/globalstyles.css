@@ -165,13 +165,16 @@ ul li:last-child {
     color: rgba(255,33,33,0.9);
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     ul li:last-child {
         position: relative;
         margin-left: 10%;
         width: 30%;
     }
+}
+
+
+@media (max-width: 768px) {
     .navbar-brand > img{
         margin-left: -30%;
     }
