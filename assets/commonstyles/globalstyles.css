@@ -165,12 +165,16 @@ ul li:last-child {
     color: rgba(255,33,33,0.9);
 }
 
-@media (max-width: 992px) {
+@media (max-width: 992px) and (min-width: 768px){
     ul li:last-child {
         text-align: center;
         position: relative;
-        margin-left: 10%;
-        width: 30%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    ul li:last-child > a{
+        width: 50%;
     }
 }
 
