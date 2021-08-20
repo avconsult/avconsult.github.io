@@ -48,8 +48,8 @@
     height: auto;
 }
 
-.carousel-item{
-
+.carousel-control-next, .carousel-control-prev{
+    z-index: 0;
 }
 
 .vertical-align{
@@ -82,6 +82,12 @@
 }
 
 @media (max-width: 768px) {
+    .carousel-control-next > span {
+        margin-left: 3vw;
+    }
+    .carousel-control-prev > span {
+        margin-right: 3vw;
+    }
     .carousel-inner > .carousel-item > img,
     .carousel-inner > .carousel-item > a > img {
         width: 80%;
