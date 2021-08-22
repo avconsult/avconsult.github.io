@@ -76,7 +76,7 @@ nav{
 }
 
 /* Tablets and phones in landscape */
-@media (max-width: 992px) and (orientation: landscape){
+@media (max-width: 1200px) and (orientation: landscape){
     body{
         height: fit-content;
     }
