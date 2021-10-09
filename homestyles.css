@@ -1,8 +1,29 @@
 #showcase-section{
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #F6F6F6;
+    /*background: url("assets/media/n-n-BtbjCFUvBXs-unsplash (1).jpg");*/
+    /*background-size: cover;*/
+    /*background: linear-gradient(-45deg, white, red, ghostwhite, whitesmoke);*/
+    /*background-size: 400% 400%;*/
+    /*animation: gradient 15s ease infinite;*/
     padding-top: 1%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#showcase-section h1{
+    font-weight: 500 !important;
 }
 
 #showcase-section > h3 {
@@ -47,6 +68,10 @@
 .showcase-container{
     text-align: center;
     margin-top: 3%;
+}
+
+.showcase-row:last-child > div{
+    max-width: 30vw;
 }
 
 @keyframes hide {

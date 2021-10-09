@@ -96,9 +96,9 @@
         font-size: 1.25em;
     }
     .row:first-child{
-        min-height: 70vh;
-        padding-left: 3%;
-        padding-right: 3%;
+        min-height: 50vh;
+        padding-left: 2%;
+        padding-right: 2%;
     }
     .row:first-child > h1{
         font-weight: 500 !important;
