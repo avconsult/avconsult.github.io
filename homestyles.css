@@ -83,6 +83,11 @@
 @media (max-width: 768px) {
     #bottom-row-header{
         padding-top: 5vh;
+        padding-bottom: 2vh;
+    }
+    #top-row-header{
+        padding-top: 5vh;
+        padding-bottom: 2vh;
     }
 }
 
