@@ -81,6 +81,15 @@
 }
 
 @media (max-width: 768px) {
+    #bottom-row-header{
+        padding-top: 5vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .showcase-row:nth-child(2){
+        margin-top: 10px;
+    }
     .showcase-row > div {
         margin-top: 5%;
         margin-bottom: 5%;

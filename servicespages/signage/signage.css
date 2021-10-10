@@ -37,7 +37,7 @@
 #signage-section{
     text-align: center;
     padding-top: 15vh;
-    background-color: whitesmoke;
+    background-color:  #F6F6F6;
     min-height: 80vh;
     display: flex;
     justify-content: center;
@@ -96,12 +96,13 @@
 @media (max-width: 992px) {
     .header .motto{
         padding-top: 4%;
+        margin-top: 1%;
     }
     .header .motto > h2{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .header .motto > h5{
-        font-size: 1.15rem;
+        font-size: 0.95rem;
     }
     #productCarrousel{
         width: 90vw;
@@ -115,7 +116,7 @@
     }
     .motto{
         padding: 8% 5%;
-        margin-top: 10%;
+        margin-top: 15%;
         max-width: none;
         max-height: none;
         margin-left: auto;
