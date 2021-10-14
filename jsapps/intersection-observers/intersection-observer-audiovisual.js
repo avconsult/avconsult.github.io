@@ -3,7 +3,7 @@ const projector = document.getElementById('projector-grid');
 const speaker = document.getElementById('speaker-grid');
 const display = document.getElementById('display-grid');
 
-const options = {threshold: 0.9}; // same as root: null (viewport), threshold and rootMargin can also be specified
+const options = {threshold: 0.55}; // same as root: null (viewport), threshold and rootMargin can also be specified
 const observer = new IntersectionObserver(function(entries, observer){
     entries.forEach( entry => {
         if(entry.isIntersecting) {

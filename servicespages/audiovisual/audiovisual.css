@@ -256,7 +256,12 @@ footer{
     max-width: 650px;
   }
 }
-
+@media screen and (min-width: 1200px) {
+  .products a:nth-child(3) {
+    grid-column: 6/8;
+    margin-top: 10px;
+  }
+}
 /*!* Desktop styles *!*/
 /*@media screen and (min-width: 1200px) {*/
 /*  !*body{*!*/
