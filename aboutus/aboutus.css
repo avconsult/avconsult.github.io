@@ -34,7 +34,7 @@ nav{
     flex-direction: column;
     /*min-height: 40vh;*/
     /*max-height: 50vh;*/
-    background-color: whitesmoke;
+    background-color: ghostwhite;
 }
 .bottom-half{
     position: absolute;

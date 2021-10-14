@@ -8,15 +8,12 @@ const observer = new IntersectionObserver(function(entries, observer){
     entries.forEach( entry => {
         if(entry.isIntersecting) {
             document.getElementById(entry.target.id).style.visibility = 'visible';
-            if(entry.target.id == 'firstCol') {
+            if(entry.target.id == 'firstCol')
                 entry.target.classList.add("animate__backInLeft");
-            }
-            else if (entry.target.id == 'secondCol') {
+            else if (entry.target.id == 'secondCol')
                 entry.target.classList.add("animate__backInUp");
-            }
-            else {
+            else
                 entry.target.classList.add("animate__backInRight");
-            }
             observer.unobserve(entry.target);
         }
     });

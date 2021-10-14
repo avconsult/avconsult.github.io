@@ -54,7 +54,7 @@ nav{
     margin-right: 3%;
 }
 
-ul li:last-child {
+nav ul li:last-child {
     right: 5%;
     position: absolute;
     height: 50px;
@@ -194,19 +194,19 @@ ul li:last-child {
     .navbar-brand > img{
         margin-left: -30%;
     }
-    ul li:last-child {
+    nav ul li:last-child {
         text-align: center;
         position: relative;
         width: 30%;
         margin-left: 10%;
     }
-    ul li:last-child > a{
+    nav ul li:last-child > a{
         margin-left: 15%;
     }
-    ul{
+    nav ul{
         align-items: center;
     }
-    ul > li {
+    nav ul > li {
         margin-top: 5%;
     }
     #down-indicator {
