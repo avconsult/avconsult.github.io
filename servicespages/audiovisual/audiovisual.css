@@ -55,15 +55,15 @@ input, textarea{
 h1, h2, h3, h4{
   font-family: 'Poppins', SansSerif !important;
 }
-h1, h3{
-  font-size: 1.15em;
-}
-h2{
-  font-size: 1.3em;
-}
-h4{
-  font-size: 1.12em;
-}
+/*h1, h3{*/
+/*  font-size: 1.15em;*/
+/*}*/
+/*h2{*/
+/*  font-size: 1.3em;*/
+/*}*/
+/*h4{*/
+/*  font-size: 1.12em;*/
+/*}*/
 .leading{
   font-size: 1.1em;
 }
@@ -210,9 +210,9 @@ footer{
 
 /* Large tablet and laptop styles */
 @media screen and (min-width: 960px) {
-  body{
-    font-size: 18px;
-  }
+  /*body{*/
+  /*  font-size: 18px;*/
+  /*}*/
   .grid{
     width: 100%;
     max-width: 1060px;
@@ -257,34 +257,33 @@ footer{
   }
 }
 
-/* Desktop styles */
-@media screen and (min-width: 1200px) {
-  body{
-    font-size: 20px;
-  }
-  #header, #showcase, .device-details, #contact, footer{
-    padding: 90px 0;
-  }
-  .products a:nth-child(1){
-    grid-column: 1/3;
-  }
-  .products a:nth-child(2){
-    grid-column: 4/6;
-  }
-  .products a:nth-child(3) {
-    grid-column: 7/9;
-    margin-top: 10px;
-  }
-  .products a *{
-    max-width: 100%;
-    margin: 30px 0;
-  }
-  .products{
-    background: none;
-  }
-}
-  #showcase h3{
-    font-size: 2em !important;
-    padding-bottom: 5vh;
-  }
-}
+/*!* Desktop styles *!*/
+/*@media screen and (min-width: 1200px) {*/
+/*  !*body{*!*/
+/*  !*  font-size: 20px;*!*/
+/*  !*}*!*/
+/*  #header, #showcase, .device-details, #contact, footer{*/
+/*    padding: 90px 0;*/
+/*  }*/
+/*  .products a:nth-child(1){*/
+/*    grid-column: 1/3;*/
+/*  }*/
+/*  .products a:nth-child(2){*/
+/*    grid-column: 4/6;*/
+/*  }*/
+/*  .products a:nth-child(3) {*/
+/*    grid-column: 7/9;*/
+/*    margin-top: 10px;*/
+/*  }*/
+/*  .products a *{*/
+/*    max-width: 100%;*/
+/*    margin: 30px 0;*/
+/*  }*/
+/*  .products{*/
+/*    background: none;*/
+/*  }*/
+/*  #showcase h3{*/
+/*    font-size: 2em !important;*/
+/*    padding-bottom: 5vh;*/
+/*  }*/
+/*}*/
