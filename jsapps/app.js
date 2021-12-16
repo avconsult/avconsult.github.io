@@ -1,3 +1,17 @@
+const showcaseFigs = document.getElementsByClassName('showcase-item');
+
+for(let i = 0; i < showcaseFigs.length; i++){
+    showcaseFigs[i].addEventListener('mouseover', () => {
+        console.log('hovered');
+       showcaseFigs[i].getElementsByTagName('figcaption').item(0).
+           style.visibility = 'visible';
+    });
+    showcaseFigs[i].addEventListener('mouseout', () => {
+        console.log('hovered');
+       showcaseFigs[i].getElementsByTagName('figcaption').item(0).
+           style.visibility = 'hidden';
+    });
+}
 
 function getStyle(id, name) {
     var element = document.getElementById(id);

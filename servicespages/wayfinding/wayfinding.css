@@ -1,0 +1,222 @@
+body{
+    text-align: center;
+}
+
+nav{
+    /*background: repeating-linear-gradient(180deg, cornsilk, transparent 145%);*/
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#slideshow-section{
+    background-color: var(--clr-primaryred-400);
+    color: white;
+    margin-top: 2em;
+}
+#slideshow-section h1 {
+    color: white;
+}
+
+#video-section{
+    width: 95%;
+    margin: 0 auto;
+    background: var(--clr-primaryred-600);
+    padding: 2em;
+}
+#video-section h1{
+    color: white;
+    margin-bottom: 1.5em;
+}
+.video-item video{
+    outline: 2px solid white;
+    outline-offset: 1em;
+}
+.video-item video{
+    margin-bottom: 3em;
+}
+@media (min-width: 60em) {
+    #video-section{
+        width: 90%;
+        margin-top: 3em;
+    }
+    #video-section h1{
+        margin-bottom: 3em;
+        font-weight: 400 !important;
+    }
+    .video-item-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .video-item-container .video-item{
+        width: 50%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .last-item video{
+        width: 77%;
+    }
+}
+
+.nav-item > .nav-link{
+    color: white;
+}
+p:last-of-type{
+    margin-bottom: 0;
+}
+
+/* Typography */
+
+h1{
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+/* Main header and background */
+.main-header{
+    background-image: url("../../assets/media/jens-johnsson-36a3U4_UUHY-unsplash-dark.jpg");
+    background-size: cover;
+    background-position: center;
+}
+@media (min-width: 60rem) {
+    .main-header{
+        height: 100vh;
+    }
+}
+
+/* Wayfinding header */
+.wayfinding-header{
+    color: white;
+    padding: 5em 0;
+    min-height: 60vh;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 70em;
+}
+.header-title{
+    font-size: 1.5rem;
+    font-weight: 400 !important;
+    font-family: 'Poppins', SansSerif;
+    padding-bottom: 15vh;
+    padding-top: 7vh;
+}
+.header-title span{
+    font-weight: 400;
+    display: block;
+    font-size: 0.8rem;
+    padding-bottom: 1.5em;
+}
+
+@media (min-width: 45rem) {
+    .header-title{
+      font-size: 2.5rem;
+        padding-bottom: 5vh;
+    }
+    .header-title span{
+      font-size: 1.2rem;
+    }
+}
+
+.about-container{
+    margin: 0;
+}
+.about-textbox{
+    background-color: white;
+    padding: 3rem;
+    width: 100vw;
+    /* Since parent container width is 95% */
+    outline: 2px solid var(--clr-primaryred-400);
+    outline-offset: -2.5em;
+    color: black;
+    position: relative;
+}
+.about-textbox h1{
+    color: var(--clr-primaryred-400);
+    position: absolute;
+    top: 1.4em;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12em;
+    text-align: center;
+    background: white;
+ }
+.about-textbox p{
+    padding-top: 0.45em;
+}
+@media (min-width: 25rem) {
+    h1{
+        font-size: 1.5rem;
+    }
+    .about-textbox h1{
+        top: 0.9em;
+    }
+    .about-textbox p{
+        padding-top: 0.8em;
+    }
+}
+@media (min-width: 60rem) {
+    h1{
+        /*font-size: 2rem;*/
+    }
+    .about-container{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        /*background: ghostwhite;*/
+    }
+    .wayfinding-about{
+        background-image: url("../../assets/media/sample.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: -5em;
+        width: 90%;
+    }
+    .about-textbox{
+        width: 50%;
+        text-align: left;
+        top: -4em;
+        box-shadow: 0 0 3em 0 rgba(0, 0, 0, 0.3);
+        margin-left: -10%;
+        padding: 4.5em;
+    }
+    .about-textbox h1{
+        /*top: 0.5em;*/
+    }
+    .about-textbox p{
+        padding-top: 0.9em;
+        font-size: 0.98em;
+    }
+}
+
+
+/* buttons */
+
+.button{
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    border-width: 3px;
+    font-weight: 400;
+    display: inline-block;
+    padding: .5em 1.5em;
+    cursor: pointer;
+}
+@media (min-width: 60rem) {
+    .button{
+        font-size: 1.3rem;
+    }
+}
+.button-accent{
+    color: var(--clr-neutral-100);
+}
+.button-accent:hover, .button-accent:focus{
+    color: #b8b8b8;
+}

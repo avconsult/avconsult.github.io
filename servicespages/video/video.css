@@ -1,11 +1,3 @@
-:root{
-    --clr-primaryred-200: #FC5860;
-    --clr-primaryred-400: #FC000D;
-    --clr-primaryred-600: #D8000B;
-
-    --clr-neutral-100: white;
-    --clr-neutral-900: #222C2A;
-}
 
 body{
     line-height: 1.6;

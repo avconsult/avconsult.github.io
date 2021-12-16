@@ -13,7 +13,7 @@
     <!-- Stylesheets (exc. Bootstrap) -->
     <link rel="stylesheet" href="../../assets/commonstyles/globalstyles.css">
     <link rel="stylesheet" href="../../assets/commonstyles/slideshow.css">
-    <link rel="stylesheet" href="iptv.css">
+    <link rel="stylesheet" href="wayfinding.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,55 +29,138 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-transparent">
+<div class="main-header">
 
-    <a class="navbar-brand" href="../../index.html">
-        <img src="../../assets/icons/avlogotransp.png" alt="">
-    </a>
+    <nav class="navbar navbar-expand-lg navbar-transparent">
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList" aria-controls="navbarList"
-            aria-expanded="false"
-            onclick="showChevronHome()"
-            aria-label="Toggle navigation">
+        <a class="navbar-brand" href="../../index.html">
+            <img src="../../assets/icons/avlogotransp.png" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarList" aria-controls="navbarList"
+                aria-expanded="false"
+                onclick="showChevronHome()"
+                aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon">
                             <img src="../../assets/icons/menu.png" style="width: 120%; margin-top: 10%" alt="">
                         </span>
-    </button>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarList">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="../../index.html"> Home </a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="../../aboutus/aboutus.html"> About </a>
-            </li>
-            <li style="text-align: center" class="nav-item dropdown">
+        <div class="collapse navbar-collapse" id="navbarList">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../../index.html"> Home </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../../aboutus/aboutus.html"> About </a>
+                </li>
+                <li style="text-align: center" class="nav-item dropdown">
 
-                <a onclick="hideChevronOnNavExpand()" class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
-                   role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Other Services
-                </a>
+                    <a onclick="hideChevronOnNavExpand()" class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
+                       role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Other Services
+                    </a>
 
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="../queueing/queueing.html"> Queueing Systems </a>
-                    <a class="dropdown-item" href="../signage/signage.html"> Digital Signage </a>
-                    <a class="dropdown-item" href="../video/video.html"> Video Conferencing </a>
-                    <a class="dropdown-item" href="../audiovisual/audiovisual.html"> Audiovisual </a>
-                    <a class="dropdown-item" href="../IPTV/iptv.html"> IPTV </a>
-                </div>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../queueing/queueing.html"> Queueing Systems </a>
+                        <a class="dropdown-item" href="../signage/signage.html"> Digital Signage </a>
+                        <a class="dropdown-item" href="../video/video.html"> Video Conferencing </a>
+                        <a class="dropdown-item" href="../audiovisual/audiovisual.html"> Audiovisual </a>
+                        <a class="dropdown-item" href="../IPTV/iptv.html"> IPTV </a>
+                    </div>
 
-            </li>
+                </li>
 
-            <li class="nav-item active">
-                <a class="nav-link btn btn-danger" target="_blank" href="../../assets/catalogues/AV%20Consult%20-%20Media%20solutions.pdf">4
-                    Catalog
-                </a>
-            </li>
-        </ul>
+                <li class="nav-item active">
+                    <a class="nav-link btn btn-danger" target="_blank" href="../../assets/catalogues/AV%20Consult%20-%20Media%20solutions.pdf">
+                        Catalog
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="wayfinding-header">
+
+        <div class="container">
+            <h1 class="header-title"> Your Personal Navigator
+                <span> mapping the world inside your business </span>
+            </h1>
+            <div onclick="scrollToId('slideshow-section')" class="button button-accent"> See Our Work </div>
+        </div>
+    </section>
+
+</div>
+
+
+<div class="container about-container">
+    <section class="wayfinding-about">
+
+        <div class="about-textbox">
+            <h1> What is Wayfinding? </h1>
+            <p>
+                Through wayfinding, we model your business premises, be it comprised of a single building block or multiple ones, and create simulated
+                walkthroughs from any source to any destination. <br><br>These walkthroughs are then accessible either through clicking on a building block
+                or area in your site's rendering, or through menu and text with search options, making it easy for anyone to go anywhere.
+            </p>
+        </div>
+
+    </section>
+</div>
+
+<section id="video-section">
+    <h1> Walkthrough Animations </h1>
+    <div class="video-item-container">
+        <div class="video-item">
+            <video width="80%" autoplay controls loop src="../../assets/products/wayfinding/FEMALESPA.mp4"></video>
+        </div>
+        <div class="video-item last-item">
+            <video width="80%" autoplay controls loop src="../../assets/products/wayfinding/directions.mp4"></video>
+        </div>
     </div>
-</nav>
+</section>
 
+<!-- Slideshow section -->
+<section id="slideshow-section">
 
+    <h1> Our Projects </h1>
+
+    <div id="productCarrousel" class="carousel slide" data-interval="4000" data-ride="carousel">
+
+        <div style="min-height: 60vh" class="carousel-inner">
+            <div class="carousel-item">
+                <img style="width: 60%" class="d-block" src="../../assets/products/wayfinding/alicehosp.png" alt="First slide">
+            </div>
+            <div class="carousel-item active">
+                <img style="width: 60%" class="d-block" src="../../assets/products/wayfinding/MALL.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img style="width:20%" class="d-block" src="../../assets/products/wayfinding/CORE.png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img style="width: 20%;" class="d-block" src="../../assets/products/wayfinding/SMC.png" alt="Third slide">
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#productCarrousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#productCarrousel" role="button" data-slide="next">
+            <span class="sr-only">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+
+    </div>
+</section>
+
+<footer>
+
+    <p> Copyright 2021 AV Consult MEA </p>
+
+</footer>
+
+<script src="../../jsapps/app.js"> </script>
+<script src="../../jsapps/lightbox/lightboxmodule.js" type="module"> </script>
 <!-- Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

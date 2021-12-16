@@ -38,6 +38,7 @@
     max-width: 34rem;
 }
 
+
 .row:first-child{
     display: flex;
     justify-content: center;
@@ -94,6 +95,9 @@
     }
     .row:first-child > p{
         font-size: 1.25em;
+        text-align: left;
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
     .row:first-child{
         min-height: 50vh;
