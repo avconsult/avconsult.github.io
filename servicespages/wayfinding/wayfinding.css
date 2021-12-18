@@ -18,6 +18,12 @@ nav{
 #slideshow-section h1 {
     color: white;
 }
+.carousel-item > img.landscape-img{
+    width: 60%;
+}
+.carousel-item > img.portrait-img{
+    width: 20%;
+}
 
 #video-section{
     width: 95%;

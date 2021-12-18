@@ -94,9 +94,13 @@
         margin-right: 3vw;
     }
     .carousel-inner > .carousel-item > img,
+    .carousel-inner > .carousel-item > img.landscape-img,
     .carousel-inner > .carousel-item > a > img {
         width: 80%;
         margin: auto;
+    }
+    .carousel-inner > .carousel-item > img.portrait-img{
+        width: 50%;
     }
     .carousel{
         height: auto;
