@@ -83,9 +83,14 @@ h1{
 
 /* Main header and background */
 .main-header{
-    background-image: url("../../assets/media/jens-johnsson-36a3U4_UUHY-unsplash-dark.jpg");
+    background-image: url("../../assets/media/jens-johnsson-36a3U4_UUHY-unsplash-dark-preedit.png");
     background-size: cover;
     background-position: center;
+}
+@media (max-width: 30rem) {
+    .main-header{
+        background-image: url("../../assets/media/jens-johnsson-36a3U4_UUHY-unsplash-dark-mobile.png");
+    }
 }
 @media (min-width: 60rem) {
     .main-header{
@@ -105,20 +110,22 @@ h1{
     padding: 0;
     max-width: 70em;
 }
-.header-title{
-    font-size: 1.5rem;
-    font-weight: 400 !important;
-    font-family: 'Poppins', SansSerif;
-    padding-bottom: 15vh;
-    padding-top: 7vh;
+/*.header-title{*/
+/*    font-size: 1.5rem;*/
+/*    font-weight: 400 !important;*/
+/*    font-family: 'Poppins', SansSerif;*/
+/*    padding-bottom: 15vh;*/
+/*    padding-top: 7vh;*/
+/*}*/
+/*.header-title span{*/
+/*    font-weight: 400;*/
+/*    display: block;*/
+/*    font-size: 0.8rem;*/
+/*    padding-bottom: 1.5em;*/
+/*}*/
+#work-btn{
+    margin-top: 25vh;
 }
-.header-title span{
-    font-weight: 400;
-    display: block;
-    font-size: 0.8rem;
-    padding-bottom: 1.5em;
-}
-
 @media (min-width: 45rem) {
     .header-title{
       font-size: 2.5rem;
@@ -126,6 +133,14 @@ h1{
     }
     .header-title span{
       font-size: 1.2rem;
+    }
+    #work-btn{
+        margin-top: 30vh;
+    }
+}
+@media (min-width: 60rem) {
+    #work-btn{
+        margin-top: 40vh;
     }
 }
 
