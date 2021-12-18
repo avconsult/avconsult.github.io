@@ -231,8 +231,12 @@ nav ul li:last-child {
     .lightbox__content{
         width: 100%;
     }
-    .lightbox__content > .carousel-item > img{
-        width: 100%;
+    .lightbox__content > .carousel-item > img,
+    .lightbox__content > .carousel-item > img.landscape-img{
+        width: 90%;
+    }
+    .lightbox__content > .carousel-item > img.portrait-img{
+        width: 50%;
     }
 }
 
