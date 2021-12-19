@@ -37,7 +37,18 @@
     font-weight: 500;
     max-width: 34rem;
 }
+.text-container{
+    margin: 1em auto;
+    width: 90%;
+    text-align: left;
+}
 
+@media (min-width: 700px) {
+    .text-container{
+        width: auto;
+        text-align: center;
+    }
+}
 
 .row:first-child{
     display: flex;
