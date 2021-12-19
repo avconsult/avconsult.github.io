@@ -218,7 +218,7 @@ h1{
 
 /* buttons */
 
-.button{
+.way-button{
     font-size: 1.1rem;
     text-decoration: none;
     text-transform: uppercase;
@@ -231,7 +231,7 @@ h1{
     cursor: pointer;
 }
 @media (min-width: 60rem) {
-    .button{
+    .way-button{
         font-size: 1.3rem;
     }
 }

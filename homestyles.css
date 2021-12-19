@@ -73,7 +73,29 @@
 .showcase-row:last-child > div{
     max-width: 30vw;
 }
-
+#bottom-row{
+    padding: 1em 0.5em;
+}
+.bottom-row-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+@media (min-width: 660px) {
+    #bottom-row{
+        padding: 1.8em 5em;
+    }
+}
+@media (min-width: 990px) {
+    #bottom-row{
+        padding: 3em 10em;
+    }
+    .bottom-row-item{
+        max-width: 30vw
+    }
+}
 @keyframes hide {
     to {
         opacity: 0;

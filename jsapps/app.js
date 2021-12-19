@@ -50,26 +50,17 @@ let contactForm = document.getElementById('mail-form');
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
     let formData = new FormData(contactForm);
-    let obj = {};
-    for (let [key, value] of formData) {
-        obj[key] = value;
-    }
-    console.log(obj);
-
-    let xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://script.google.com/macros/s/AKfycbyEGtM9OdCXCaIhxXl-mckdN_w_alVSm5Xj1dYDCXnWAnJVhqKX9kRgtpZzKsKpkfbM/exec');
-    xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.send(formData);
-
-    xhr.onreadystatechange = function () {
-        const DONE = 4; // readyState 4 means the request is done.
-        const OK = 200; // status 200 is a successful return.
-        if (xhr.readyState === DONE) {
-            if (xhr.status === OK) {
-                console.log(xhr.responseText); // 'This is the returned text.'
-            } else {
-                console.log('Error: ' + xhr.status); // An error occurred during the request.
-            }
+    fetch('https://formspree.io/f/mayvykbp', {
+        method: 'POST',
+        body: formData,
+        headers: {
+            'Accept': 'application/json'
         }
-    };
+    }).then(response => {
+        console.log('response: ' + response.status);
+        document.getElementById('form-msg').innerText = "Submission received! We will get back to you shortly";
+        contactForm.reset()
+    }).catch(error => {
+        document.getElementById('form-msg').innerText = "Oops! There was a problem submitting your form"
+    });
 });
