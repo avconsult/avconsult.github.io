@@ -2,6 +2,7 @@
     background: var(--clr-primaryred-400);
     color: white;
     padding: 30px 20px;
+    border-top: 3px solid white;
 }
 #contact h3, #contact p{
     text-align: center;
