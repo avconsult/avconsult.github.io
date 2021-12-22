@@ -76,7 +76,7 @@
 #bottom-row{
     padding: 1em 0.5em;
 }
-.bottom-row-item{
+.row-item{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
