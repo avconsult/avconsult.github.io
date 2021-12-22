@@ -175,6 +175,9 @@ nav ul li:last-child {
 .footer a{
     color: rgba(255,33,33,0.9);
 }
+.footer p{
+    color: black;
+}
 
 @media (max-width: 992px){
     ul li{
