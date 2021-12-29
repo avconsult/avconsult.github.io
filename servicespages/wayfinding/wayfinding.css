@@ -53,7 +53,8 @@ nav{
     }
     .video-item-container{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+                /*space-between;*/
     }
     .video-item-container .video-item{
         width: 50%;
