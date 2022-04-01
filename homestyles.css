@@ -111,9 +111,6 @@
         padding-top: 5vh;
         padding-bottom: 2vh;
     }
-}
-
-@media (max-width: 768px) {
     .showcase-row:nth-child(2){
         margin-top: 10px;
     }
